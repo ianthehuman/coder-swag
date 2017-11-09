@@ -30,22 +30,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="145" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Qhl-8d-6kQ">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="164" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Qhl-8d-6kQ">
                                 <rect key="frame" x="0.0" y="67.5" width="375" height="535.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="145" id="RC1-qK-UfU" customClass="CategoryCell" customModule="coder_swag" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="145"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="165" id="RC1-qK-UfU" customClass="CategoryCell" customModule="coder_swag" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="165"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RC1-qK-UfU" id="7uJ-xx-tLf">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="145"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="165"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="d4A-fl-mwZ">
-                                                    <rect key="frame" x="0.0" y="3" width="375" height="139"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="d4A-fl-mwZ">
+                                                    <rect key="frame" x="0.0" y="3" width="375" height="159"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlb-3m-oT6">
-                                                    <rect key="frame" x="119" y="62" width="136" height="21"/>
+                                                    <rect key="frame" x="119" y="71.5" width="136" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="95H-SG-mGK"/>
                                                         <constraint firstAttribute="width" constant="136" id="Fgp-Dg-DXR"/>
